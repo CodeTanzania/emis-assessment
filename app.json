@@ -1,0 +1,33 @@
+{
+  "name": "emis-rat",
+  "description": "WIP",
+  "repository": "https://github.com/CodeTanzania/emis-rat.git",
+  "keywords": [
+    "codetanzania",
+    "emis",
+    "emis-module",
+    "incident",
+    "type",
+    "hazard",
+    "peril",
+    "family",
+    "emergency",
+    "risk",
+    "rapid",
+    "assessment"
+  ],
+  "addons": [
+    "mongolab"
+  ],
+  "env":
+  {
+    "NPM_CONFIG_PRODUCTION":
+    {
+      "value": "false"
+    },
+    "YARN_PRODUCTION":
+    {
+      "value": "false"
+    }
+  }
+}
