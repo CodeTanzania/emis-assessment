@@ -16,15 +16,18 @@
     "codetanzania",
     "emis",
     "emis-module",
-    "incident",
-    "type",
+    "disaster",
     "hazard",
-    "peril",
-    "family",
-    "emergency",
     "risk",
+    "emergency",
+    "incident",
     "rapid",
-    "assessment"
+    "assessment",
+    "questionnaire",
+    "question",
+    "observation",
+    "response",
+    "respondent"
   ],
   "contributors": [
     {
