@@ -1,6 +1,6 @@
 {
   "name": "emis-rat",
-  "description": "Collective tools for performing rapid assessement on emergency(or disaster) event.",
+  "description": "Collective tools for performing rapid assessment in emergency(or disaster) event.",
   "repository": "https://github.com/CodeTanzania/emis-rat.git",
   "keywords": [
     "codetanzania",

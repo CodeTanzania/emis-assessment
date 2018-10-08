@@ -4,7 +4,7 @@
 [![Dependencies Status](https://david-dm.org/CodeTanzania/emis-rat/status.svg?style=flat-square)](https://david-dm.org/CodeTanzania/emis-rat)
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/CodeTanzania/emis-rat/tree/develop)
 
-Collective tools for performing rapid assessement on emergency(or disaster) event. 
+Collective tools for performing rapid assessment in emergency(or disaster) event. 
 
 ## Domain Model
 
