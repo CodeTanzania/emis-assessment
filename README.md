@@ -4,7 +4,11 @@
 [![Dependencies Status](https://david-dm.org/CodeTanzania/emis-rat/status.svg?style=flat-square)](https://david-dm.org/CodeTanzania/emis-rat)
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/CodeTanzania/emis-rat/tree/develop)
 
-> WIP
+Collective tools for performing rapid assessement on emergency(or disaster) event. 
+
+## Domain Model
+
+![EMIS Rapid Assessment Domain Model](https://raw.githubusercontent.com/CodeTanzania/emis-rat/develop/specifications/ratv0.1.0.png)
 
 ## Requirements
 
@@ -56,7 +60,8 @@ It will be nice, if you open an issue first so that we can know what is going on
 ## References
 - [Disaster](https://en.wikipedia.org/wiki/Disaster)
 
-## Licence
+
+## License
 
 The MIT License (MIT)
 
