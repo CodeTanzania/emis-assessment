@@ -1,14 +1,14 @@
-# @codetanzania/emis-assessment
+# emis-assessment
 
-[![Build Status](https://travis-ci.org/CodeTanzania/@codetanzania/emis-assessment.svg?branch=develop)](https://travis-ci.org/CodeTanzania/@codetanzania/emis-assessment)
-[![Dependencies Status](https://david-dm.org/CodeTanzania/@codetanzania/emis-assessment/status.svg?style=flat-square)](https://david-dm.org/CodeTanzania/@codetanzania/emis-assessment)
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/CodeTanzania/@codetanzania/emis-assessment/tree/develop)
+[![Build Status](https://travis-ci.org/CodeTanzania/emis-assessment.svg?branch=develop)](https://travis-ci.org/CodeTanzania/emis-assessment)
+[![Dependencies Status](https://david-dm.org/CodeTanzania/emis-assessment/status.svg?style=flat-square)](https://david-dm.org/CodeTanzania/emis-assessment)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/CodeTanzania/emis-assessment/tree/develop)
 
 Collective tools for performing rapid assessment in emergency(or disaster) event. 
 
 ## Domain Model
 
-![EMIS Rapid Assessment Domain Model](https://raw.githubusercontent.com/CodeTanzania/@codetanzania/emis-assessment/develop/specifications/ratv0.1.0.png)
+![EMIS Rapid Assessment Domain Model](https://raw.githubusercontent.com/CodeTanzania/emis-assessment/develop/specifications/ratv0.1.0.png)
 
 ## Requirements
 
@@ -20,13 +20,13 @@ Collective tools for performing rapid assessment in emergency(or disaster) event
 ## Installation
 
 ```sh
-npm install @codetanzania/@codetanzania/emis-assessment --save
+npm install @codetanzania/emis-assessment --save
 ```
 
 ## Usage
 
 ```js
-const { app } = require('@codetanzania/@codetanzania/emis-assessment');
+const { app } = require('@codetanzania/emis-assessment');
 app.start((error) => { ... });
 ```
 
