@@ -1,5 +1,5 @@
 {
-  "name": "@codetanzania/emis-rat",
+  "name": "@codetanzania/emis-assessment",
   "version": "1.0.0",
   "description": "Collective tools for performing rapid assessment in emergency(or disaster) event.",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/CodeTanzania/emis-rat.git"
+    "url": "https://github.com/CodeTanzania/emis-assessment.git"
   },
   "keywords": [
     "codetanzania",
@@ -38,19 +38,19 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CodeTanzania/emis-rat/issues",
+    "url": "https://github.com/CodeTanzania/emis-assessment/issues",
     "email": "lallyelias87@gmail.com"
   },
-  "homepage": "https://github.com/CodeTanzania/emis-rat",
+  "homepage": "https://github.com/CodeTanzania/emis-assessment",
   "sandbox": {
-    "url": "https://emis-rat.herokuapp.com",
-    "apiDoc": "https://codetanzania.github.io/emis-rat/",
+    "url": "https://emis-assessment.herokuapp.com",
+    "apiDoc": "https://codetanzania.github.io/emis-assessment/",
     "client_id": "",
     "client_secret": "",
     "urls": [
       {
         "resource": "IncidentType",
-        "link": "https://emis-rat.herokuapp.com/v1/assessments",
+        "link": "https://emis-assessment.herokuapp.com/v1/assessments",
         "scopes": [
           "assessment:*"
         ],

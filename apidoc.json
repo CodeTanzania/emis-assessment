@@ -1,8 +1,8 @@
 {
-  "name": "emis-rat",
-  "title": "EMIS - Plan",
-  "url": "https://emis-rat.herokuapp.com/v1",
-  "sampleUrl": "https://emis-rat.herokuapp.com/v1",
+  "name": "emis-assessment",
+  "title": "EMIS - Assessment",
+  "url": "https://emis-assessment.herokuapp.com/v1",
+  "sampleUrl": "https://emis-assessment.herokuapp.com/v1",
   "template":
   {
     "withCompare": true,
