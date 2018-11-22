@@ -1,6 +1,6 @@
 {
   "name": "emis-assessment",
-  "description": "Collective tools for performing rapid assessment in emergency(or disaster) event.",
+  "description": "Collective tools for performing assessment prior, during and after emergency(or disaster) event.",
   "repository": "https://github.com/CodeTanzania/emis-assessment.git",
   "keywords": [
     "codetanzania",

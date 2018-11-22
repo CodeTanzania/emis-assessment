@@ -1,7 +1,7 @@
 {
   "name": "@codetanzania/emis-assessment",
   "version": "1.0.0",
-  "description": "Collective tools for performing rapid assessment in emergency(or disaster) event.",
+  "description": "Collective tools for performing assessment prior, during and after emergency(or disaster) event.",
   "main": "index.js",
   "scripts": {
     "test": "grunt test",
