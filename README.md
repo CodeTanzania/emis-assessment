@@ -8,7 +8,7 @@ Collective tools for performing assessment prior, during and after emergency(or 
 
 ## Domain Model
 
-![EMIS Rapid Assessment Domain Model](https://raw.githubusercontent.com/CodeTanzania/emis-assessment/develop/specifications/ratv0.1.0.png)
+![EMIS Rapid Assessment Domain Model](https://raw.githubusercontent.com/CodeTanzania/emis-assessment/develop/specifications/assessment.model.png)
 
 ## Requirements
 
