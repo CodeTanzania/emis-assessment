@@ -64,6 +64,7 @@ It will be nice, if you open an issue first so that we can know what is going on
 - [Sphere Handbook](https://www.spherestandards.org/handbook/)
 - [OCHA - Humanitarian reports](https://www.unocha.org/es/media-centre/humanitarian-reports)
 - [ESCAP - Innovations in Disaster Rapid Assessment](https://www.unescap.org/sites/default/files/publications/High%20res_Rapid%20Assessment_ESCAP%20IDD_1.pdf)
+- [Classification of International Statistical Activities](https://unstats.un.org/unsd/iiss/Classification-of-International-Statistical-Activities.ashx)
 
 
 ## License
