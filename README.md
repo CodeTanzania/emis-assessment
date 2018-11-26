@@ -59,6 +59,11 @@ It will be nice, if you open an issue first so that we can know what is going on
 
 ## References
 - [Disaster](https://en.wikipedia.org/wiki/Disaster)
+- [Rapid Assessment in Disasters](https://www.med.or.jp/english/journal/pdf/2013_01/019_024.pdf)
+- [Methodology for Rapid Humanitarian Assessment](https://www.humanitarianresponse.info/sites/www.humanitarianresponse.info/files/documents/files/Rapid_Assessment_Methodology_ENG.pdf)
+- [Sphere Handbook](https://www.spherestandards.org/handbook/)
+- [OCHA - Humanitarian reports](https://www.unocha.org/es/media-centre/humanitarian-reports)
+- [ESCAP - Innovations in Disaster Rapid Assessment](https://www.unescap.org/sites/default/files/publications/High%20res_Rapid%20Assessment_ESCAP%20IDD_1.pdf)
 
 
 ## License
