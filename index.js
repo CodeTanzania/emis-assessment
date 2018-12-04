@@ -28,6 +28,7 @@ require('mongoose-schema-jsonschema')(mongoose);
 const Indicator = require(path.join(__dirname, 'lib', 'indicator.model'));
 const Question = require(path.join(__dirname, 'lib', 'question.model'));
 const Questionnaire = require(path.join(__dirname, 'lib', 'questionnaire.model'));
+const Observation = require(path.join(__dirname, 'lib', 'observation.model'));
 
 
 /**
@@ -82,6 +83,18 @@ exports.Questionnaire = Questionnaire;
 
 
 /**
+ * @name Observation
+ * @description Observation model
+ * @type {mongoose.Model}
+ *
+ * @author lally elias <lallyelias87@gmail.com>
+ * @since 1.0.0
+ * @version 0.1.0
+ */
+exports.Observation = Observation;
+
+
+/**
  * @name indicatorRouter
  * @description indicator http router
  * @type {express.Router}
@@ -118,6 +131,18 @@ exports.Questionnaire = Questionnaire;
 
 
 /**
+ * @name observationRouter
+ * @description observation http router
+ * @type {express.Router}
+ *
+ * @author lally elias <lallyelias87@gmail.com>
+ * @since 1.0.0
+ * @version 0.1.0
+ */
+// exports.observationRouter = observationRouter;
+
+
+/**
  * @name apiVersion
  * @description http router api version
  * @type {String}
@@ -144,6 +169,7 @@ Object.defineProperty(exports, 'app', {
     // app.mount(indicatorRouter);
     // app.mount(questionRouter);
     // app.mount(questionnaireRouter);
+    // app.mount(observationRouter);
     return app;
   }
 });
