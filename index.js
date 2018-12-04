@@ -26,6 +26,7 @@ const mongoose = require('mongoose');
 const pkg = require(path.join(__dirname, 'package.json'));
 require('mongoose-schema-jsonschema')(mongoose);
 const Indicator = require(path.join(__dirname, 'lib', 'indicator.model'));
+const Question = require(path.join(__dirname, 'lib', 'question.model'));
 
 
 /**
@@ -56,6 +57,18 @@ exports.Indicator = Indicator;
 
 
 /**
+ * @name Question
+ * @description Question model
+ * @type {mongoose.Model}
+ *
+ * @author lally elias <lallyelias87@gmail.com>
+ * @since 1.0.0
+ * @version 0.1.0
+ */
+exports.Question = Question;
+
+
+/**
  * @name indicatorRouter
  * @description indicator http router
  * @type {express.Router}
@@ -65,6 +78,18 @@ exports.Indicator = Indicator;
  * @version 0.1.0
  */
 // exports.indicatorRouter = indicatorRouter;
+
+
+/**
+ * @name questionRouter
+ * @description question http router
+ * @type {express.Router}
+ *
+ * @author lally elias <lallyelias87@gmail.com>
+ * @since 1.0.0
+ * @version 0.1.0
+ */
+// exports.questionRouter = questionRouter;
 
 
 /**
@@ -92,6 +117,7 @@ Object.defineProperty(exports, 'app', {
   get() {
     /* @todo bind oauth middlewares authenticate, token, authorize */
     // app.mount(indicatorRouter);
+    // app.mount(questionRouter);
     return app;
   }
 });
