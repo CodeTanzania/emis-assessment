@@ -49,10 +49,11 @@
     "client_secret": "",
     "urls": [
       {
-        "resource": "IncidentType",
-        "link": "https://emis-assessment.herokuapp.com/v1/assessments",
+        "resource": "Indicator",
+        "schema": "https://emis-assessment.herokuapp.com/v1/indicators/schema",
+        "link": "https://emis-assessment.herokuapp.com/v1/indicators",
         "scopes": [
-          "assessment:*"
+          "indicator:*"
         ],
         "methods": [
           "get",
@@ -74,7 +75,6 @@
     "jshint-stylish": "^2.2.1",
     "mocha": "^5.2.0",
     "mongoose": "^5.3.14",
-    "mongoose-schema-jsonschema": "^1.2.1",
     "sinon": "^7.1.1",
     "sinon-chai": "^3.3.0",
     "sinon-mongoose": "^2.2.1",
@@ -91,6 +91,7 @@
     "moment": "^2.22.2",
     "mongoose-locale-schema": "^0.2.1",
     "mongoose-rest-actions": "^0.20.2",
+    "mongoose-schema-jsonschema": "^1.2.1",
     "randomcolor": "^0.5.3"
   },
   "engines": {
