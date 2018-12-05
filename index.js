@@ -33,6 +33,8 @@ const Response = require(path.join(__dirname, 'lib', 'response.model'));
 const Observation = require(path.join(__dirname, 'lib', 'observation.model'));
 const indicatorRouter =
   require(path.join(__dirname, 'lib', 'indicator.http.router'));
+const questionRouter =
+  require(path.join(__dirname, 'lib', 'question.http.router'));
 
 /**
  * @name info
@@ -130,7 +132,7 @@ exports.indicatorRouter = indicatorRouter;
  * @since 1.0.0
  * @version 0.1.0
  */
-// exports.questionRouter = questionRouter;
+exports.questionRouter = questionRouter;
 
 
 /**
@@ -194,7 +196,7 @@ Object.defineProperty(exports, 'app', {
   get() {
     /* @todo bind oauth middlewares authenticate, token, authorize */
     app.mount(indicatorRouter);
-    // app.mount(questionRouter);
+    app.mount(questionRouter);
     // app.mount(questionnaireRouter);
     // app.mount(responseRouter);
     // app.mount(observationRouter);
