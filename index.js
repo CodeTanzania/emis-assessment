@@ -28,6 +28,7 @@ require('mongoose-schema-jsonschema')(mongoose);
 const Indicator = require(path.join(__dirname, 'lib', 'indicator.model'));
 const Question = require(path.join(__dirname, 'lib', 'question.model'));
 const Questionnaire = require(path.join(__dirname, 'lib', 'questionnaire.model'));
+const Assessment = require(path.join(__dirname, 'lib', 'assessment.model'));
 /*jshint -W079 */
 const Response = require(path.join(__dirname, 'lib', 'response.model'));
 const Observation = require(path.join(__dirname, 'lib', 'observation.model'));
@@ -88,6 +89,18 @@ exports.Questionnaire = Questionnaire;
 
 
 /**
+ * @name Observation
+ * @description Observation model
+ * @type {mongoose.Model}
+ *
+ * @author lally elias <lallyelias87@gmail.com>
+ * @since 1.0.0
+ * @version 0.1.0
+ */
+exports.Observation = Observation;
+
+
+/**
  * @name Response
  * @description Response model
  * @type {mongoose.Model}
@@ -100,15 +113,15 @@ exports.Response = Response;
 
 
 /**
- * @name Observation
- * @description Observation model
+ * @name Assessment
+ * @description Assessment model
  * @type {mongoose.Model}
  *
  * @author lally elias <lallyelias87@gmail.com>
  * @since 1.0.0
  * @version 0.1.0
  */
-exports.Observation = Observation;
+exports.Assessment = Assessment;
 
 
 /**

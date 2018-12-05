@@ -5,7 +5,7 @@
 const path = require('path');
 const { expect } = require('chai');
 const { Schema } = require('mongoose');
-const { Questionnaire } = require(path.join(__dirname, '..', '..'));
+const { Question, Questionnaire } = require(path.join(__dirname, '..', '..'));
 
 
 describe('Questionnaire Schema', () => {
@@ -100,6 +100,22 @@ describe('Questionnaire Schema', () => {
     expect(description.options.searchable).to.be.true;
     expect(description.options.fake).to.exist;
     expect(description.options.fake).to.be.an('object');
+  });
+
+  it('should have questions field', () => {
+
+    const questions = Questionnaire.path('questions');
+
+    expect(questions).to.exist;
+    expect(questions).to.be.instanceof(Schema.Types.Array);
+    expect(questions.options).to.exist;
+    expect(questions.options).to.be.an('object');
+    expect(questions.options.type).to.exist;
+    expect(questions.options.ref).to.exist;
+    expect(questions.options.ref).to.be.equal(Question.MODEL_NAME);
+    expect(questions.options.default).to.be.undefined;
+    expect(questions.options.index).to.be.true;
+    expect(questions.options.autopopulate).to.be.exist;
   });
 
 });
