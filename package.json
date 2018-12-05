@@ -61,6 +61,20 @@
           "put",
           "patch"
         ]
+      },
+      {
+        "resource": "Question",
+        "schema": "https://emis-assessment.herokuapp.com/v1/questions/schema",
+        "link": "https://emis-assessment.herokuapp.com/v1/questions",
+        "scopes": [
+          "question:*"
+        ],
+        "methods": [
+          "get",
+          "post",
+          "put",
+          "patch"
+        ]
       }
     ]
   },
