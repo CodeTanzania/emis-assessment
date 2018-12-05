@@ -155,4 +155,44 @@ describe('Question Schema', () => {
     expect(help.options.fake).to.be.an('object');
   });
 
+  it('should have choices field', () => {
+    const choices = Question.path('choices');
+
+    expect(choices).to.exist;
+    expect(choices).to.be.instanceof(Schema.Types.Array);
+    expect(choices.options).to.exist;
+    expect(choices.options).to.be.an('object');
+    expect(choices.options.type).to.exist;
+  });
+
+  it('should have choice label field', () => {
+    const label = Question.path('choices.label');
+
+    expect(label).to.exist;
+    expect(label).to.be.instanceof(Schema.Types.String);
+    expect(label.options).to.exist;
+    expect(label.options).to.be.an('object');
+    expect(label.options.type).to.exist;
+    expect(label.options.trim).to.be.true;
+    expect(label.options.index).to.be.true;
+    expect(label.options.searchable).to.be.true;
+    expect(label.options.fake).to.exist;
+    expect(label.options.fake).to.be.an('object');
+  });
+
+  it('should have choice name field', () => {
+    const name = Question.path('choices.name');
+
+    expect(name).to.exist;
+    expect(name).to.be.instanceof(Schema.Types.String);
+    expect(name.options).to.exist;
+    expect(name.options).to.be.an('object');
+    expect(name.options.type).to.exist;
+    expect(name.options.trim).to.be.true;
+    expect(name.options.index).to.be.true;
+    expect(name.options.searchable).to.be.true;
+    expect(name.options.fake).to.exist;
+    expect(name.options.fake).to.be.an('object');
+  });
+
 });

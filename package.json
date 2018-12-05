@@ -90,7 +90,7 @@
     "lodash": "^4.17.11",
     "moment": "^2.22.2",
     "mongoose-locale-schema": "^0.2.1",
-    "mongoose-rest-actions": "^0.20.2",
+    "mongoose-rest-actions": "^0.21.0",
     "mongoose-schema-jsonschema": "^1.2.1",
     "randomcolor": "^0.5.3"
   },
